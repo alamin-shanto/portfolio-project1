@@ -95,3 +95,25 @@ nav button {
 .banner-description {
   font-size: 18px;
 }
+
+.banner-buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.banner-buttons1 {
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.banner-buttons2 {
+  width: 160px;
+  height: 64px;
+  color: #fd6e0a;
+  background-color: transparent;
+  border: 1px solid #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+}
