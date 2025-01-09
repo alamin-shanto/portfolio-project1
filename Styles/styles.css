@@ -47,6 +47,25 @@
 .vice-title2 {
   font-size: 18px;
 }
+
+.title25 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.semibold20 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bold20 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.normal18 {
+  font-size: 18px;
+}
 /* header Design */
 
 .header {
@@ -144,7 +163,7 @@ nav button {
   margin: 0 auto;
 }
 
-/* about section design */
+/* main section1 design */
 .main-section1 {
   background-color: #fff8f3;
   margin-top: 120px;
@@ -162,6 +181,8 @@ nav button {
   display: flex;
   gap: 50px;
 }
+
+/* main section2 design */
 
 .main-section2 {
   display: 0 auto;
@@ -187,4 +208,39 @@ nav button {
 .section-content3,
 .section-content4 {
   padding: 30px;
+}
+
+/* main section3 design */
+
+.main-section3 {
+  margin-top: 130px;
+}
+
+.section3-title {
+  text-align: center;
+}
+
+.section3-contents {
+  display: flex;
+  gap: 50px;
+}
+
+.content1-title,
+.content2-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.section3-button {
+  height: 64px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  border: none;
+  color: white;
+}
+
+.button1 {
+  text-align: center;
+  margin-top: 50px;
 }
