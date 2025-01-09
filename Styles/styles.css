@@ -28,6 +28,21 @@
   color: #757575;
 }
 
+/* shared things code */
+
+.main-title {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.main-sub-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.vice-title {
+  font-size: 20px;
+}
 /* header Design */
 
 .header {
@@ -116,4 +131,30 @@ nav button {
   border: 1px solid #fd6e0a;
   font-size: 20px;
   font-weight: 700;
+}
+
+/* main section design */
+
+.main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about section design */
+.main-section1 {
+  background-color: #fff8f3;
+  margin-top: 120px;
+  margin-bottom: 130px;
+  align-items: center;
+  padding: 115px 144px 147px 169px;
+}
+
+.about {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.main-sub-section {
+  display: flex;
+  gap: 50px;
 }
