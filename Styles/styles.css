@@ -43,6 +43,10 @@
 .vice-title {
   font-size: 20px;
 }
+
+.vice-title2 {
+  font-size: 18px;
+}
 /* header Design */
 
 .header {
@@ -157,4 +161,30 @@ nav button {
 .main-sub-section {
   display: flex;
   gap: 50px;
+}
+
+.main-section2 {
+  display: 0 auto;
+}
+
+.section-content {
+  display: flex;
+  gap: 24px;
+}
+
+.sc-card {
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border: 5px;
+}
+
+.section-title {
+  text-align: center;
+  padding: 0px 116px 50px 115px;
+}
+
+.section-content1,
+.section-content2,
+.section-content3,
+.section-content4 {
+  padding: 30px;
 }
