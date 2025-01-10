@@ -66,6 +66,11 @@
 .normal18 {
   font-size: 18px;
 }
+
+.normal16 {
+  font-size: 16px;
+}
+
 /* header Design */
 
 .header {
@@ -161,6 +166,7 @@ nav button {
 .main {
   max-width: 1140px;
   margin: 0 auto;
+  padding-bottom: 105px;
 }
 
 /* main section1 design */
@@ -175,6 +181,7 @@ nav button {
 .about {
   text-align: center;
   background-color: #ffffff;
+  padding: 10px;
 }
 
 .main-sub-section {
@@ -246,3 +253,49 @@ nav button {
 }
 
 /* footer design */
+.footer {
+  background-color: #fff8f3;
+  padding: 138px 222px 122px 238px;
+}
+
+.footer-description {
+  margin-bottom: 30px;
+}
+
+.footer-content {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 117px;
+  background-color: #fff8f3;
+}
+
+.footer-content input,
+.footer-content textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: white;
+  margin-bottom: 24px;
+  border: none;
+}
+
+.footer-content input {
+  width: 461px;
+  height: 64px;
+}
+
+.footer-content textarea {
+  width: 461px;
+  height: 180px;
+}
+
+.orange-button2 {
+  height: 64px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  border: none;
+  color: white;
+}
