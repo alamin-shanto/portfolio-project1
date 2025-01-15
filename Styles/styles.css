@@ -16,6 +16,11 @@
   border: none;
 }
 
+.orange-button1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .dark1 {
   color: #181818;
 }
@@ -110,6 +115,11 @@ nav ul li {
   list-style-type: none;
 }
 
+nav .nav-li:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
 nav button {
   font-weight: 700;
   font-size: 20px;
@@ -161,6 +171,11 @@ nav button {
   font-weight: 700;
 }
 
+.banner-buttons2:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 /* main section design */
 
 .main {
@@ -205,6 +220,11 @@ nav button {
   border: 5px;
 }
 
+.sc-card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .section-title {
   text-align: center;
   padding: 0px 116px 50px 115px;
@@ -247,6 +267,11 @@ nav button {
   color: white;
 }
 
+.section3-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .button1 {
   text-align: center;
   margin-top: 50px;
@@ -279,6 +304,13 @@ nav button {
   background-color: white;
   margin-bottom: 24px;
   border: none;
+  box-sizing: border-box;
+}
+
+.footer-content input:hover,
+.footer-content textarea:hover {
+  cursor: pointer;
+  border: 1px solid black;
 }
 
 .footer-content input {
@@ -298,6 +330,11 @@ nav button {
   background-color: #fd6e0a;
   border: none;
   color: white;
+}
+
+.orange-button2:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 /* Media Query For Small Devices */
