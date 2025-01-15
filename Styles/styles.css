@@ -299,3 +299,112 @@ nav button {
   border: none;
   color: white;
 }
+
+/* Media Query For Small Devices */
+
+@media screen and (max-width: 576px) {
+  /* Header Section design */
+  .header {
+    background-image: none;
+  }
+
+  /* Nav design */
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+  }
+  /* Banner Section design */
+  .banner {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .banner img {
+    margin-top: 1rem;
+  }
+
+  .banner-subtitle {
+    margin-bottom: 0px;
+  }
+
+  .banner-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  /* Main Section design */
+  .main-title {
+    margin: 0px;
+  }
+  /* Main Section1 design */
+
+  .main-section1 {
+    margin-top: 0px;
+    padding: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .main-sub-section {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .vice-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 1rem;
+  }
+
+  /* Main Section2 design */
+
+  .section-title {
+    padding: 0px;
+  }
+
+  .main-section2-para {
+    padding: 1rem;
+  }
+
+  .section-content {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+  }
+
+  /* Main Section3 design */
+
+  .section3-title {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .section3-contents {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  /* Footer Section Design */
+  .footer {
+    padding: 2rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-form input,
+  .footer-form textarea {
+    width: 100%;
+    height: 100%;
+  }
+}
